@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+}
+
+.home-content {
+    margin: 40px 0 70px 0;
+}
+
+#navbar-expand-lg {
+    position: sticky;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+    position: sticky;
+}
+
+
+.navbar-light {
+    position: sticky;
+}
+
+.bg-light {
+    position: sticky;
+}
+
+.nav-link {
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+    position: relative;
+}
+
+.navbar-nav li a {
+    float: right;
+    text-align: right;
+    position: relative;
+}
+
+#nav-bar ul li a:hover {
+    color: #007bff!important;
+    position: relative;
+}
+
+.navbar {
+    background: #fff;
+    position: relative;
+}
+
+.navbar-toggler {
+    border: none!important;
+    position: relative;
+}
+
+.nav-link {
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+    position: relative;
+}
+
+#slider {
+    width: 100%;
+    position: relative;
+}
+
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+}
+
+.carousel img,
+.img-fluid,
+.d-block {
+            width: 100% !important;
+            min-width: 100% !important;
+            height: 100% !important;
+            min-height: 100% !important;
+            height: auto;
+        } 
+
+
+.carousel-item {
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0.8 !important;
+    background-size: cover;
+    height: 100%;
+    background-size: 100% 100%;
+    position: relative;
+    transition-duration: 3s;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.carousel,
+.carousel-item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.d-block {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.carousel-caption h1 {
+    color: white;
+    font-style: bold;
+    font-size: 42;
+}
+
+#imgg{
+    height: 40vh;
+    width:60%;
+    margin-left: 30%;
+    margin-right: auto;
+    float: right;
+    margin: 10px;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+#about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: black;
+    background: url(a10.jpg);
+    background-size: cover;
+    margin-bottom: -3px;
+    text-align: center !important;
+}
+
+.about-content {
+    font-weight: "bold";
+    font-size: "24";
+    text-align: center !important;
+    color: black;
+}
+
+@media screen and (max-width: 900px)
+.about-row {
+    margin: 30px 20px 30px 20px;
+}
+.about-row {
+    margin: 30px 70px 30px 70px;
+}
+.justify-content-center {
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: "bold";
+    font-size: "24";
+}
+
+h2 {
+    text-align: center;
+}
+
+.col-md-6 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+}
+
+.col-md-5 {
+    padding: 40px 50px 40px 50px;
+}
+
+.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .portfolio-img {
+    width: 78%;
+    height: 400px;
+    border: 2px solid rgba(44, 130, 201, 1);
+    padding: 5px 5px 5px 5px;
+}
+
+.portfolio-row {
+    margin: 30px 30px 30px 30px;
+}
+
+.portfolio-btn {
+    margin: 10px 0 10px 0;
+    background-color: #2FDEDB;
+    color: #FFFFFF;
+}
+
+.portfolio-btn:hover {
+    background-color: #00008B;
+    /* Green */
+}
+   
+#publications {
+        background-image: linear-gradient(rgba(0,0,0, 0.6), rgba(0, 0, 0, 0.8)), url(a22.jpg);
+        background-size: cover;
+        background-position: center;
+        color: #efefef !important;
+        background-attachment: fixed;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    #publications h1 {
+        text-align: center;
+        color: #efefef !important;
+        padding-bottom: 10px;
+    }
+
+
+  
